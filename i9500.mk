@@ -101,9 +101,7 @@ PRODUCT_PACKAGES += \
 
 # GearCM Extras
 PRODUCT_PACKAGES += \
-	OTAUpdates \
 	Screencast \
-	Synapse \
 	gearinit.sh
 
 PRODUCT_COPY_FILES += \
@@ -278,18 +276,6 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.build.selinux=0
-
-# SuperSU
-PRODUCT_PACKAGES += \
-	.installed_su_daemon \
-	99SuperSUDaemon \
-	SuperSU \
-	daemonsu \
-	install-recovery \
-	libsupol.so \
-	su \
-	sugote \
-	supolicy
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.root_access=0
