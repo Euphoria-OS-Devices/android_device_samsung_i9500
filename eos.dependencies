@@ -7,9 +7,9 @@
   },
   {
     "remote":       "github",
-    "repository":   "EuphoriaOS/android_kernel_samsung_exynos5410",
+    "repository":   "Euphoria-OS-Devices/android_kernel_samsung_exynos5410",
     "target_path":  "kernel/samsung/exynos5410",
-    "revision":     "GearKernel_Reborn"
+    "revision":     "lollipop-5.1"
   },
   {
     "remote":       "github",
